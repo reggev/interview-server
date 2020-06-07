@@ -1,0 +1,27 @@
+{
+  "name": "interview-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggev/interview-server.git"
+  },
+  "author": "reggev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reggev/interview-server/issues"
+  },
+  "homepage": "https://github.com/reggev/interview-server#readme"
+}
